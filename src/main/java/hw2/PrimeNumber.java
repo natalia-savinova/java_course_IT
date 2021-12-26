@@ -5,8 +5,10 @@ public class PrimeNumber {
     //На вход в функцию подается положительное число N. Вывести все простые числа от 1 до N
 
     public static void main(String[] args) {
+        primeNumbers(-3);
+        line();
         primeNumbers(0);
-
+        line();
         primeNumbers(1);
         line();
         primeNumbers(2);
