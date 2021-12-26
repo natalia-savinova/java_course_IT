@@ -20,13 +20,11 @@ public class PrimeNumber {
 
     public static void primeNumbers(int number) {
 
-        if(number > 0) {
-            System.out.println("1");
-        }else {
+        if(number <= 0) {
             System.out.println("Number must be greater than zero");
         }
 
-        for(int i = 3; i <= number; i++) {
+        for(int i = 2; i <= number; i++) {
             Boolean flag = true;
             for(int j = 2; j < i; j++) {
                 if(i % j == 0) {
