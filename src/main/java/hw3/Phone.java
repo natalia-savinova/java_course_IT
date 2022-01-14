@@ -39,11 +39,11 @@ public class Phone {
     }
 
     public void receiveCall(String name) {
-        System.out.println("Звонит " + name);
+        System.out.println(name + " Calls");
     }
 
     public void receiveCall(String name, long phoneNumber) {
-        System.out.println("Звонит " + name + " Номер телефона: " + phoneNumber);
+        System.out.println(name + " Calls" + " The phone number is: " + phoneNumber);
     }
 
     public long getNumber() {
