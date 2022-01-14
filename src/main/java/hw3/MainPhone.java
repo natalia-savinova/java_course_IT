@@ -8,9 +8,9 @@ public class MainPhone {
         Phone honor = new Phone(81234567800L,"Honor50", 172);
         Phone huawei = new Phone(81234567000L,"Huawei p50", 1891);
 
-        System.out.println("Модель телефона: " + iPhone.getModel() + " Номер телефона: " + iPhone.getNumber() + " Вес телефона: " + iPhone.getWeight());
-        System.out.println("Модель телефона: " + honor.getModel() + " Номер телефона: " + honor.getNumber() + " Вес телефона: " + honor.getWeight());
-        System.out.println("Модель телефона: " + huawei.getModel() + " Номер телефона: " + huawei.getNumber() + " Вес телефона: " + huawei.getWeight());
+        System.out.println("The phone model: " + iPhone.getModel() + " The phone number: " + iPhone.getNumber() + " The phone weight: " + iPhone.getWeight());
+        System.out.println("The phone model: " + honor.getModel() + " The phone number: " + honor.getNumber() + " The phone weight: " + honor.getWeight());
+        System.out.println("The phone model: " + huawei.getModel() + " The phone number: " + huawei.getNumber() + " The phone weight: " + huawei.getWeight());
 
         System.out.println(iPhone.getNumber());
         iPhone.receiveCall("Maria");
