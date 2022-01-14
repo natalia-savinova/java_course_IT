@@ -62,14 +62,15 @@ public class Phone {
 
         StringBuilder numberOfPhones = new StringBuilder();
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter phone numbers for sanding massage. Separated by Enter. \n" +
+        System.out.print("Enter phone numbers for sending a message, separate by Enter. \n" +
                 "When done enter zero (0)... ");
 
-        String input = "";
+        String input;
         input = scanner.nextLine();
 
         do{
-            numberOfPhones.append(input + ", ");
+            numberOfPhones.append(input);
+            numberOfPhones.append(", ");
             input = scanner.nextLine();
         } while(!input.equals("0"));
 
