@@ -68,14 +68,16 @@ public class Phone {
         String input;
         input = scanner.nextLine();
 
-        do{
-            numberOfPhones.append(input);
-            numberOfPhones.append(", ");
-            input = scanner.nextLine();
-        } while(!input.equals("0"));
-
-        scanner.close();
-
+        if(input.equals("0")) {
+            scanner.close();
+        }else {
+            do{
+                numberOfPhones.append(input);
+                numberOfPhones.append(", ");
+                input = scanner.nextLine();
+            } while(!input.equals("0"));
+            scanner.close();
+        }
         System.out.println(numberOfPhones);
     }
 }
