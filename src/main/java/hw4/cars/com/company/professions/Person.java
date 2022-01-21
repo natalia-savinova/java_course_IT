@@ -1,7 +1,7 @@
 package hw4.cars.com.company.professions;
 
 public class Person {
-    String fullName;
+    private String fullName;
     private int age;
 
     public Person(String fullName, int age) {

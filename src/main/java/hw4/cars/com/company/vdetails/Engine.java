@@ -1,8 +1,8 @@
 package hw4.cars.com.company.vdetails;
 
 public class Engine {
-    int power;
-    String manufacturer;
+    private int power;
+    private String manufacturer;
 
     public Engine(int power, String manufacturer) {
         this.power = power;

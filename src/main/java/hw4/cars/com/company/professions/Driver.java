@@ -1,7 +1,7 @@
 package hw4.cars.com.company.professions;
 
 public class Driver extends Person{
-    int drivingExperience;
+    private int drivingExperience;
 
     public Driver(String fullName, int age, int drivingExperience) {
         super(fullName, age);
