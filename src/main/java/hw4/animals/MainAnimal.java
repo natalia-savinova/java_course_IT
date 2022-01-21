@@ -16,8 +16,8 @@ public class MainAnimal {
 
         Animal[] animals = new Animal[] {princessCarolyn, mrPeanutbutter, boJack};
 
-        for(int i = 0; i < animals.length; i++) {
-            System.out.println(animals[i].getName() + " goes to the psychotherapist");
+        for(Animal item : animals) {
+            System.out.println(item.getName() + " goes to the psychotherapist");
         }
     }
 }
