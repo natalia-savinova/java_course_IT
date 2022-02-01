@@ -2,7 +2,6 @@ package stringhelper;
 
 import hw5.StringHelper;
 import org.junit.jupiter.api.Test;
-import utils.BaseTest;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
